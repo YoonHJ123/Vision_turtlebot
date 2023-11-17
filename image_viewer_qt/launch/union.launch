@@ -1,0 +1,4 @@
+<launch>
+  <node name="image_viewer_qt" pkg="image_viewer_qt" type="qnode" />
+  <include file="$(find usb_cam)/launch/test_img_view.launch" />
+</launch>
